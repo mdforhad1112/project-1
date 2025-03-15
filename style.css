@@ -1,0 +1,87 @@
+body{
+    font-family: "Gill Sans Extrabold", sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.top{
+    display: flex;
+    padding: 5%;
+}
+.half-width{
+    width: 50%;
+}
+img{
+    width: 80%;
+    border-radius: 50%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px 50px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(38, 0, 254),rgb(42, 2, 43));
+    color: white;
+    font-weight: 700;
+}
+.link:hover{
+    background-image: linear-gradient(rgba(246, 0, 0, 0.968),rgb(59, 229, 7));
+
+}
+.text-white{
+    color: white;
+}
+.text{
+    color: yellow;
+}
+.h4{
+    color: chartreuse;
+}
+.top-banner{
+    
+    background-image: url(img2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    font-style: oblique;
+}
+.Specialize-head{
+    text-align: center;
+    padding: 0 20%;
+}
+.parent{
+    display: flex;
+    padding: 0 10%;
+}
+.child{
+    box-shadow: 6px 8px 11px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0 ;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan) 0 100%;
+}
+
+.num{
+    text-align: center;
+    box-shadow: 6px 8px 11px black;
+    margin: 2%;
+    padding: 50px;
+    border-radius: 0 20px 50px 0 ;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan) 0 100%;
+    width: fit-content ;
+    margin: 25px auto  ;
+    text-align: left;
+}
+
+footer{
+    text-align: center; 
+}
